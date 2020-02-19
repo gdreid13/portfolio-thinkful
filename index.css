@@ -1,7 +1,27 @@
 * {
     box-sizing: border-box;
 }
-  
+
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins/Poppins-Regular.ttf);
+    font-family: ptSerif;
+    src: url(font/PT_Serif/PT_Serif-Web-Regular.ttf);
+}
+
+.computer-img {
+    display: none;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/greengregcrop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 body {
     font-family: "Open Sans", sans-serif; 
     font-size: 20px;
@@ -10,12 +30,14 @@ body {
 
 main {
     text-align: center;
+    font-family: ptSerif;
 }
   
 footer {
     padding: 1% 1%;
-    background-color: #96858f;
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 
@@ -37,7 +59,8 @@ nav {
     1px 1px 0 #000;
 }
 
-nav a {
+nav a, footer a {
+    font-family: poppins;
     color: white;
     text-shadow:
     -1px -1px 0 #000,
@@ -52,12 +75,10 @@ nav a {
 
  
 header {
-    padding: 12% 0;
-    /*
+    padding: 25% 2%;
+    font-family: poppins;
     background-color: #96858f;
-    */
     min-height: 200px;
-    background-color: #9099a2;
     color: white;
     text-shadow:
     -1px -1px 0 #000,
@@ -68,8 +89,9 @@ header {
   
 section {
     min-height: 200px;
-    padding: 6% 0;
-    background-color: #9099a2;
+    padding: 10% 2%;
+    background-color: #96858f;
+/*    background-color: #9099a2; */
     color: white;
 }
   
@@ -88,24 +110,38 @@ ul.nav-links li {
     margin-left: 30px;
 }
 
-ul.likes li {
-    list-style-type: none;
-}
 
 .strike-it {
     text-decoration: line-through;
 }
 
-.smaller {
-    font-size: 14px;
+#bio {
+    padding: 5% 5%;
+    text-align: left;
 }
+
+.smaller {
+    font-size: 16px;
+}
+
 a {
     color: indigo;
 }
-nav a:hover {
+
+nav a:hover, footer a:hover {
     color: lightskyblue;
 }
 
-#portfolio a:hover, footer a:hover {
+#portfolio a:hover {
     color: blue;
+}
+
+@media only screen and (min-width: 720px) {
+    .mobile-img {
+        display: none;
+    }
+    .computer-img {
+        display: block;
+        margin: auto;
+    }
 }
