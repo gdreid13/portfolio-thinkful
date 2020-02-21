@@ -97,10 +97,14 @@ section {
     background-color: #96858f;
 /*    background-color: #9099a2; */
     color: white;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;      
 }
   
 section:nth-child(even) {
-    background-color: #d5d5d5;
+    background-color: lightgray;
     color: black;
 }
 
