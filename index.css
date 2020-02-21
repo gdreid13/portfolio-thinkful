@@ -96,12 +96,7 @@ section {
     min-height: 200px;
     padding: 10% 2%;
     background-color: #96858f;
-/*    background-color: #9099a2; */
-    color: white;
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;      
+    color: white;   
 }
   
 section:nth-child(even) {
