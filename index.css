@@ -100,8 +100,7 @@ section {
 }
   
 section:nth-child(even) {
-    background-color: white;
-    color: black;
+    background-color: #6d7993;
 }
 
 ul.nav-links {
