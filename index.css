@@ -31,6 +31,11 @@ body {
 main {
     text-align: center;
     font-family: ptSerif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;      
 }
   
 footer {
@@ -128,15 +133,11 @@ ul.nav-links li {
 }
 
 a {
-    color: indigo;
+    color: white;
 }
 
-nav a:hover, footer a:hover {
+a:hover {
     color: lightskyblue;
-}
-
-#portfolio a:hover {
-    color: blue;
 }
 
 @media only screen and (min-width: 720px) {
