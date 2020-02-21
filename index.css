@@ -100,7 +100,7 @@ section {
 }
   
 section:nth-child(even) {
-    background-color: lightgray;
+    background-color: #f8f8ff;
     color: black;
 }
 
