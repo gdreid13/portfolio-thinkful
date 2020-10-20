@@ -135,6 +135,10 @@ a:hover {
     color: lightskyblue;
 }
 
+.computer-img {
+    max-width: 80%  ;
+}
+
 @media only screen and (min-width: 720px) {
     .mobile-img {
         display: none;
