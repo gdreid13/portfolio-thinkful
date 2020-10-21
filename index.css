@@ -11,6 +11,7 @@
 
 .computer-img {
     display: none;
+    max-width: 80%;
 }
 
 .hero-image {
@@ -149,8 +150,8 @@ a.button {
     margin: 10px;
 }
 
-.computer-img {
-    max-width: 80%  ;
+.mobile-img {
+    max-width: 80%;
 }
 
 @media only screen and (min-width: 720px) {
